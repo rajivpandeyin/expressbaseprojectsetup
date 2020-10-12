@@ -20,3 +20,10 @@ npm install @types/node --save-dev
 4.Install Nodemon and ts-node
 
 npm install --save-dev ts-node nodemon
+
+
+5.Clone project from here and install node packages with 
+
+npm install
+
+
