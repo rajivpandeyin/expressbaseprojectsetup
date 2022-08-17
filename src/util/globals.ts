@@ -1,5 +1,5 @@
 /**
- * @author Appinventiv
+ * @author Rajiv Pandey
  * @description This file used to creates global varialbles for the project. NOTE: If you are making a variable global then you have to be sure if that variable is worthy to be a global or not.
  */
 

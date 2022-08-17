@@ -1,6 +1,6 @@
 import app from "./app";
 //import { PORT } from './config/environment';
-const port = 3000;
+const port = 3200;
 
 app.listen(port, function () {
     console.log('Server listening on port ' + port);

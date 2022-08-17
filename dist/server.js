@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const app_1 = require("./app");
 //import { PORT } from './config/environment';
-const port = 3000;
+const port = 3200;
 app_1.default.listen(port, function () {
     console.log('Server listening on port ' + port);
 });
