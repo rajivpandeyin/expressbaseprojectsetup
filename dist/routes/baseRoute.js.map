@@ -1,1 +1,1 @@
-{"version":3,"file":"baseRoute.js","sourceRoot":"","sources":["../../src/routes/baseRoute.ts"],"names":[],"mappings":";;;AAAA,qCAAiC;AAEjC,MAAsB,SAAS;IAA/B;QACI;;;;;WAKG;QAEO,WAAM,GAAG,gBAAM,EAAE,CAAC;IAEhC,CAAC;CAAA;AAVD,8BAUC"}
+{"version":3,"file":"baseRoute.js","sourceRoot":"","sources":["../../src/routes/baseRoute.ts"],"names":[],"mappings":";;;AAAA,qCAAiC;AAEjC,MAAsB,SAAS;IAA/B;QACI;;;;;WAKG;QAEO,WAAM,GAAG,IAAA,gBAAM,GAAE,CAAC;IAEhC,CAAC;CAAA;AAVD,8BAUC"}

@@ -2,6 +2,7 @@
   "compilerOptions": {
       "target": "es2017",
       "module": "commonjs",
+      "skipLibCheck": true,
       "removeComments": false,
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
@@ -13,7 +14,7 @@
       "outDir": "./dist",
       "moduleResolution": "node",
       "types": [
-          "node"
+          "@types/jest", "node"
       ],
       "typeRoots": [
           "./src/interface/index.d.ts"

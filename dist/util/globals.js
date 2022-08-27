@@ -24,7 +24,7 @@ new (winston.Logger)({
 /** this library used for the color fully debugging the code */
 const logs = console.log;
 //making varialbles accessible throughout the project
-exports.initGlobals = (data = {}) => {
+const initGlobals = (data = {}) => {
     global.log = log;
     global.logger = logger;
     global.warning = (...args) => logs(chalk.yellow(typeof args == 'object' ? JSON.stringify(args) : args));
@@ -37,4 +37,5 @@ exports.initGlobals = (data = {}) => {
     global.redisTokens = [];
     global.callWindow = data.callWindow;
 };
+exports.initGlobals = initGlobals;
 //# sourceMappingURL=globals.js.map

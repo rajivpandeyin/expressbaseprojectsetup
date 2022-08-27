@@ -22,7 +22,7 @@ class App {
             config_1.mongoDb.mongoDebug(true);
         };
         this.app = express();
-        this.server = http_1.createServer(this.app);
+        this.server = (0, http_1.createServer)(this.app);
         this.initDependency();
         this.routes(); //initialize all routes
         // bootInit(); //initialize bootstrap methods
