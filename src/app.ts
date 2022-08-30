@@ -14,7 +14,7 @@ import { ApiRoutes } from "./routes/index.route";
 import * as path from "path";
 import { CONSTANT } from "./config";
 import { initGlobals } from "./util";
-
+import { Elasticsearch } from './lib/elasticsearch';
 //var docs = require("express-mongoose-docs");
 
 class App {
@@ -26,6 +26,7 @@ class App {
     // bootInit(); //initialize bootstrap methods
     //initGlobals();
     this.initConfig();
+    new Elasticsearch().createConnection();
   }
 
   public app: express.Application;

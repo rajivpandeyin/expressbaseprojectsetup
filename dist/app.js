@@ -12,6 +12,7 @@ const config_1 = require("./config");
 const index_route_1 = require("./routes/index.route");
 const path = require("path");
 const config_2 = require("./config");
+const elasticsearch_1 = require("./lib/elasticsearch");
 //var docs = require("express-mongoose-docs");
 class App {
     constructor() {
@@ -28,6 +29,7 @@ class App {
         // bootInit(); //initialize bootstrap methods
         //initGlobals();
         this.initConfig();
+        new elasticsearch_1.Elasticsearch().createConnection();
     }
     initDependency() {
         i18n.configure({
